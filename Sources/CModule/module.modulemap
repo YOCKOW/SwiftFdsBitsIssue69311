@@ -1,0 +1,3 @@
+module CModule {
+  umbrella header "header.h"
+}

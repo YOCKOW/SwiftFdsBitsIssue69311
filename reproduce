@@ -1,0 +1,6 @@
+#!/bin/sh
+
+repoDir=$(cd "$(dirname $0)" && pwd -P)
+cd "$repoDir"
+set -x
+swift package clean && swift build
